@@ -36,7 +36,7 @@ function Router() {
     <div className="flex flex-col min-h-screen">
       <ScrollManager />
       <Navbar />
-      <main className="flex-grow">
+      <main className="grow">
         <Switch>
           <Route path="/" component={Home} />
           <Route path="/book" component={Book} />
